@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    font-weight: lighter;
     box-sizing: border-box;
+    text-shadow: 2px 2px 2px black ;
 }
 
 body{
@@ -64,4 +66,85 @@ body{
     top: 40px;
     right: 100px;
     color: white;
+}
+
+.temp{
+    display: block;
+    color: white;
+    font-size: 70px;
+    font-weight: lighter;
+    font-family:sans-serif;
+    /* position: absolute; */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.weather_img{
+    height: 80PX;
+    margin-top: 20px;
+}
+
+.main_0{
+    position:absolute;
+    /* left: 450px; */
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 140px;
+    height: 75%;
+    width:50%;
+    /* margin-top: 100px; */
+}
+
+.temprature_div{
+    display: flex;
+}
+
+.Feelslike{
+    color: white;
+    margin-left: 13px;
+}
+
+.line, .precip{
+    margin-top: 20px;
+    color: white;
+    font-size: large;
+}
+
+.season_img{
+    display: flex;
+    color: white;
+    position:absolute;
+    margin-left: 167px;
+    height: 45%;
+    width:50%;
+    margin-top: 100px;
+}
+
+.season{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.city_text{
+    color: white;
+    position:absolute;
+    margin-left: 167px;
+    height: 25%;
+    width:50%;
+    margin-top: 100px;
+}
+
+.time{
+    display: flex;
+    color: white;
+    position:absolute;
+    margin-left: 167px;
+    height: 7%;
+    width:50%;
+    margin-top: 100px;
+}
+
+.line_1{
+    opacity: 0;
 }
